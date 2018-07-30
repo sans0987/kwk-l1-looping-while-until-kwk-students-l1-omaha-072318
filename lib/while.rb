@@ -1,7 +1,11 @@
+counter = 6
+
 def using_while
-	levitation_force = 6
-	
-	#your code here
+  counter = 6
+	counter += 4
+	puts "Your levitation force is now #{counter}"
+counter >= 10 
 end
 
+using_while
 
